@@ -1,0 +1,57 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; 
+}
+.h2{
+  color: white;
+}
+.head{
+  color: #1888d3;
+ }
+body {
+  background: linear-gradient(to bottom, #30cfd0, #330867);
+}
+
+input[type=number], select {
+  width: 200px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+button {
+  width: 180px;
+  background-image: linear-gradient(to right, #30cfd0, #330867);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+label {
+	cursor: pointer;
+	color: black;
+	display: block;
+	padding: 10px;
+	margin: 3px;
+}
+
+.card {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.9s;
+  width: 400px;
+  border-radius: 15px;
+  height: 450px;
+  padding: 20px;
+  
+}
+
